@@ -18,19 +18,114 @@ function Country(){
         </Row>
      </Container>
      <Container>
+
          <Row>
+
          <Col xs={12} md={4}>
             <Card>
                 <Card.Img  src="/img/12.png" />
                 <Card.Body>
                    <Row>
-                       <div className="title">fedia</div>
-                   <Button variant="primary">Go somewhere</Button>
+                       <div className="title">Warsaw</div>
+                   <Button variant="primary">See openings</Button>
                    </Row>
                 </Card.Body>
             </Card>
          </Col>    
+        
+         <Col xs={12} md={4}>
+            <Card>
+                <Card.Img  src="/img/13.png" />
+                <Card.Body>
+                   <Row>
+                       <div className="title">Barcelona</div>
+                   <Button variant="primary">See openings</Button>
+                   </Row>
+                </Card.Body>
+            </Card>
+         </Col>    
+        
+         <Col xs={12} md={4}>
+            <Card>
+                <Card.Img  src="/img/14.png" />
+                <Card.Body>
+                   <Row>
+                       <div className="title">Istanbul</div>
+                   <Button variant="primary">See openings</Button>
+                   </Row>
+                </Card.Body>
+            </Card>
+         </Col>    
+        
          </Row>
+    
+         <Row className="mt-4">
+
+         <Col xs={12} md={4}>
+            <Card>
+                <Card.Img  src="/img/15.png" />
+                <Card.Body>
+                   <Row>
+                       <div className="title">Rome</div>
+                   <Button variant="primary">See openings</Button>
+                   </Row>
+                </Card.Body>
+            </Card>
+         </Col>    
+        
+         <Col xs={12} md={4}>
+            <Card>
+                <Card.Img  src="/img/16.png" />
+                <Card.Body>
+                   <Row>
+                       <div className="title">Bologna</div>
+                   <Button variant="primary">See openings</Button>
+                   </Row>
+                </Card.Body>
+            </Card>
+         </Col>    
+        
+         <Col xs={12} md={4}>
+            <Card>
+                <Card.Img  src="/img/17.png" />
+                <Card.Body>
+                   <Row>
+                       <div className="title">Curitiba</div>
+                   <Button variant="primary">See openings</Button>
+                   </Row>
+                </Card.Body>
+            </Card>
+         </Col>    
+        
+         </Row>
+         <Row className="mt-4">
+
+            <Col xs={12} md={4}>
+            <Card>
+                <Card.Img  src="/img/18.png" />
+                <Card.Body>
+                    <Row>
+                        <div className="title">Mexico City</div>
+                    <Button variant="primary">See openings</Button>
+                    </Row>
+                </Card.Body>
+            </Card>
+            </Col>    
+        </Row>
+
+    
+     </Container>
+
+     <Container className="mt-5">
+        <Row>
+         <div className="join-us">
+			<h1>
+				Sounds interesting? Join us now!
+			</h1>
+			<a href="/career" class="btn">See all current openings</a>
+		
+         </div>
+        </Row>
      </Container>
     </div>)
 }
