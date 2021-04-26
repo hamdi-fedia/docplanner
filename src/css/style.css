@@ -1,0 +1,150 @@
+.logo{
+    width: 260px;
+  }
+ .active{
+     color: #56c4a5 !important;
+ } 
+
+ .nav-link {
+    padding: 0 .6em !important;
+}
+.nav-link:hover {
+    color: #56c4a5 !important;
+}
+body {
+    font-weight: 400 !important;
+    font-family: Roboto,Arial,sans-serif !important;
+    color: #747474 !important;
+  }
+  
+p{
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+}
+.marg{
+    margin: 2rem 0 ;
+    color: #56c4a5 !important;
+}
+.card-s1 .card{
+    border-radius: 10px !important;
+    padding: 2em 2em 0 !important;
+    height: 345px;
+    color: white !important;
+}
+.card-1{
+    background-color: #00ccb1 !important;
+}
+.card-2{
+    background-color: #3d83df !important;
+}
+.card-3{
+    background-color: #1b2734 !important;
+}
+ .style-select select {
+    background: transparent;
+    border: 0;
+    color: white;
+    border-radius: 0;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+}
+
+
+.card-s1 .card-title{
+    font-size: 1.625em !important;
+    font-weight: 500 !important;
+    color: #fff;
+    margin: .3em 0;
+}
+.card-s1 .card-text{
+    font-size: 1.3em !important;
+    font-weight: 300 !important;
+    line-height: 1.2 !important;
+    margin: 0 0 40px 0 !important;
+    color: #fff  !important;
+    letter-spacing: -.3px !important;
+    font-family: Work Sans,Arial,sans-serif;
+
+}
+.part img{
+    width: 100%;
+  
+}
+.part .height-img{
+    height: 50%;
+}
+.part h3{
+    color: #56c4a5;
+}
+.img-part img{
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.img-part img:hover{
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.bg-part{
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+}
+.bg-part h2{
+    color: #56c4a5;
+    padding: 4rem 0 2rem 4rem;
+    font-family: Work Sans,Arial,sans-serif;
+}
+.bg-part .parag{
+    padding-left: 4rem;
+    font-size: .875em;
+    font-weight: 600;
+    line-height: 1.7142857143;
+    margin-bottom: 3rem;
+}
+.bg-part .bg-img{
+    width: 100%;
+    height: 55%;
+}
+
+.bg-part .stats__item{
+    background: #fff ;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+    width: 94%;
+    height: 250px;
+
+}
+
+.stats__item h3{
+    color: #56c4a5;
+}
+.stats__item p{
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+}
+.stats__item img{
+    margin: 10px 0 20px 0;
+}
+.offices{
+    text-align: center;
+    margin: 3rem  20rem;
+    font-size: .875em;
+}
+.offices h1 {
+    font-size: 2.1428571429em;
+    color: #00b39b;
+}
+.offices p {
+    line-height: 1.7142857143;
+    margin: 1.6em 0;
+}
